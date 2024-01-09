@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Merriweather;
+}
+/*header common styles*/
+.text {
+  color: white;
+  text-align: center;
+  padding: 170px 340px 200px 340px;
+}
+.banner {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
+  width: 1320px;
+  height: 600px;
+  margin: 35px auto;
+  border-radius: 16px;
+}
+
+.banner-text-small {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-text-large {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+.holiday {
+  width: 802.9px;
+  height: 790px;
+  margin: 85px auto;
+}
+.holiday-65 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.holiday-small-text {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 48px;
+}
+.holiday-large-text {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.holiday-img {
+  margin-top: 48px;
+}
+
+.welcome {
+  margin: 120px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 35px auto;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.welcome-text {
+  padding: 126px 39.4px 142px 126px;
+}
+.welcome-heading {
+  color: white;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  font-family: Merriweather;
+}
+.welcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+}
+.join {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 48px;
+}
+.welcome-img {
+  align-items: center;
+}
+.place {
+  margin: 120px 120px 0 120px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-top: 100px;
+  align-items: center;
+}
+.red {
+  color: red;
+}
+.place-text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  padding-top: 100px;
+}
+.btn-primary {
+  margin: 48px 0 0 576px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  border: 0;
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sales {
+  margin: 120px 140px 120px 140px;
+  height: 900px;
+  width: 1320px;
+}
+.sales-h3 {
+  color: #070211;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.sales-red {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+}
+.sales-h2 {
+  text-align: center;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.sales-h4 {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+.sales-images {
+  display: flex;
+}
+.portfolio {
+  margin: 85px 120px 0 120px;
+  height: 1000px;
+}
+.portfolio-h3 {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.portfolio-h2 {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.portfolio-h4 {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.box {
+  max-width: 1320px;
+  margin-top: 24px;
+}
+
+.box .row img {
+  margin: 12px 12px 0px 0;
+  width: 350px;
+}
+.news {
+  margin: 240px 120px 0 120px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 616px;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+.news-img {
+  padding: 80px 585px 0 585px;
+}
+.news-text {
+  text-align: center;
+  margin-top: 40px;
+}
+.news-text > h2 {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.news-text > h4 {
+  margin-top: 22px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.input {
+  margin-top: 48px;
+}
+.news input {
+  width: 448px;
+  height: 72px;
+  border-radius: 50px 0px 0px 50px;
+  margin-left: 336px;
+  border: 0;
+}
+
+.btn-primary2 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 0px 50px 50px 0px;
+  padding: 24px 56px;
+
+  background: #f00;
+  border: 0;
+  height: 72px;
+  width: 210px;
+}
+.footer {
+  height: 609px;
+  max-width: 100%;
+  background: #070211;
+  margin-top: 120px;
+  font-family: Inter;
+}
+.location-web {
+  display: flex;
+  color: white;
+  font-family: Inter;
+  justify-content: space-between;
+  padding: 120px 219px 50px 140px;
+}
+
+.phone {
+  display: flex;
+}
+.web {
+  display: flex;
+}
+hr {
+  width: 1320px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.15);
+}
+.icon {
+  padding: 48px 600px 48px 600px;
+}
+.footer .time {
+  display: flex;
+  color: white;
+  font-family: Inter;
+  justify-content: space-between;
+  padding: 98px 140px 20px 140px;
+}
